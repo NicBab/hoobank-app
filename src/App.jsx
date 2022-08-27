@@ -24,18 +24,18 @@ const App = () => {
         <div className={`${styles.boxWidth}`}><Hero/></div>
       </div>
 
-      <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
-        <div className={`${styles.boxWidth}`}>
+      <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
+      <div className={`${styles.boxWidth}`}>
         <Stats />
-          <Billing />
-          <CardDeal />
-          <Business />
-          <Clients />
-          <CTA />
-          <Footer />
-          <Testimonials />
-        </div>
+        <Business />
+        <Billing />
+        <CardDeal />
+        <Testimonials />
+        <Clients />
+        <CTA />
+        <Footer />
       </div>
+    </div>
     </div>
   );
 };
