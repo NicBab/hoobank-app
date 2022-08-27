@@ -11,12 +11,13 @@ import Hero from "./Hero";
 
 export {
   Navbar,
+  Stats,
   Billing,
   CardDeal,
   Business,
   Clients,
   CTA,
-  Stats,
+  
   Footer,
   Testimonials,
   Hero,
